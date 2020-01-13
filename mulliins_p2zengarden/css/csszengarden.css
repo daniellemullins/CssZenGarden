@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/*CSS Resets*/
+/*
+	Here you can place CSS that removes styles you don't want right away. I have a couple of examples provided, however feel free to improve upon these. Do this before you start normal CSS calls.
+*/
+
+/*Box-Sizing: This will help you with your box-model math*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*Links - I took off that awful underline and changed the link color.*/
+a {text-decoration:none; color:rgba(114, 88, 127, 1); font-weight:bold;}
+
+
+/*Non Bold Headings*/
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+
+/*Take bullets off of lists*/
+li {list-style:none;}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+
+
+/*	
+	Your Zen Garden CSS
+	This is the CSS for your zen garden.
+*/
+
+body {
+	background-image:url(.\./img/upfeathers.png);
+}
+/*DO NOT put heights and widths in the body*/
+/*What can go in body: colors, fonts, backgrounds*/
+
+/*Study the HTML and pull tags, ids, and classes to use. I have a couple html selectors below to get you started. You will need to call more than this for your designs.*/
+
+a, li, h1, p {font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;}
+
+p { padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+h1 { 
+	font-size:55pt;
+	color:rgb(212, 201, 55);
+	
+}
+h2 {
+	font-size:35px;
+	font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+	background:rgba(114, 88, 127, .8);
+	color:rgb(244,244,244);
+}
+
+h3 {
+	font-size:22px;
+	font-weight:600;
+	padding-top:10px;
+	padding-left:15px;
+}
+
+ul, li{
+	text-align:center;
+	margin-bottom:5px
+}
+
+
+footer {
+	width:100%;
+}
+
+.page-wrapper {
+	margin:0 auto;
+	position:relative;
+	max-width:1024px;
+}
+.summary{
+	font-size:11pt;
+	background-color:rgba(255,255,255, .6);
+	border-bottom:3px solid rgba(212, 201, 55,.8);
+}
+	
+.preamble {
+	background-image:url(../img/purple-flower.gif);
+	background-repeat:no-repeat;
+	background-position:107% 5%;
+	background-size:250px;
+	background-color:rgba(255,255,255, .6);
+	padding-right:155px;
+	text-align:justify;
+	border-top:3px solid  rgba(114, 88, 127, .8);
+	border-bottom:3px solid rgba(212, 201, 55,.8);
+}
+
+.explanation{
+	background-image:url(../img/gold-flower.gif);
+	background-repeat:no-repeat;
+	background-position:-16% 100%;
+	background-size:450px;
+	background-color:rgba(255,255,255, .6);
+	padding-left:150px;
+	text-align:justify;
+	border-top:3px solid  rgba(114, 88, 127, .8);
+	border-bottom:3px solid rgba(212, 201, 55,.8);
+}
+
+.participation{
+	background-image:url(../img/purple-flower.gif);
+	background-repeat:no-repeat;
+	background-size:450px;
+	background-position:130% 0%;
+	background-color:rgba(255,255,255, .6);
+	padding-right:200px;
+	text-align:justify;
+	border-top:3px solid  rgba(114, 88, 127, .8);
+	border-bottom:3px solid rgba(212, 201, 55,.8);
+}
+
+.benefits{
+	background-image:url(../img/gold-flower.gif);
+	background-repeat:no-repeat;
+	background-position:2% 50%;
+	background-size:250px;
+	background-color:rgba(255,255,255, .6);
+	padding-left:150px;
+	text-align:justify;
+	border-top:3px solid  rgba(114, 88, 127, .8);
+	border-bottom:3px solid rgba(212, 201, 55,.8);
+}
+
+.requirements{
+	background-image:url(../img/purple-flower.gif);
+	background-repeat:no-repeat;
+	background-position:195% -35%;
+	background-size:650px;
+	background-color:rgba(255,255,255, .6);
+	padding-right:155px;
+	text-align:justify;
+	border-top:3px solid  rgba(114, 88, 127, .8);
+	border-bottom:3px solid rgba(212, 201, 55,.8);
+}
+
+h1, h2, .summary, .design-selection, .design-archives, .zen-resources {text-align:center;}
+
+footer{ 
+	word-spacing:196px;
+	padding-left:30px;
+	background-color:rgba(255, 255, 255, .8);
+	border-bottom:3px solid rgba(212, 201, 55,.8);
+	border-top:3px solid  rgba(114, 88, 127, .8);
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.design-selection{
+	background-color:rgba(255, 255,255, .6);
+	border-top:3px solid  rgba(114, 88, 127, .8);
+	border-bottom:3px solid rgba(212, 201, 55,.8);
+	background-image:url(../img/bothflowers.gif);
+	background-repeat:no-repeat;	
+}
+
+.zen-resources, .design-archives{
+	background-color:rgba(255, 255,255, .6);
+	border-top:3px solid  rgba(114, 88, 127, .8);
+}
+
+.design-archives{
+	background-color:rgba(255,255,255, .6);
+	float:left;
+	width:50%;
+	height:175px;w2
+	background-image:url(../img/flowersforarchives.gif);
+}
+
+.zen-resources{
+	float:right;
+	width:50%;
+	height:175px;
+	background-image:url(../img/finalflower.gif);
+}
